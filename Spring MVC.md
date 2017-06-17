@@ -29,3 +29,41 @@
 4. po
 5. 把上面的映射文件改成Mapper.xml
 6. 生成
+
+
+
+----------
+
+----------
+## 5.输入类型和输出类型
+- 简单类型
+- pojo对象
+- 传递pojo包装对象——vo用于查询
+- 输出类型
+	- 简单类型
+	- pojo类型
+	- pojo列表
+	- resultMap*
+
+### <sql>标签的使用
+- 类似于常量？-没有判断时，只有输入的属性名，当有判断时，可以包含值
+- `<sql id="user_Where">   
+		<!-- where标签作用:       
+				会自动向sql语句中添加where关键字   
+				会去掉第一个条件的and关键字   
+			 -->  
+		<where>
+			<if test="username != null and username != ''">
+				and username like '%${username}%'
+			</if>
+			<if test="sex != null and sex != ''">
+				and sex=#{sex}
+			</if>
+		</where>
+	</sql>`
+
+## 6.动态sql
+1. if
+2. where
+3. foreach
+4. sql片段
