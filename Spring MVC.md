@@ -64,6 +64,57 @@
 
 ## 6.动态sql
 1. if
+	1. `<sql id="query_user_vo">
+		<if test="id!=null">
+			and id= #{id}
+		</if>
+		<if test="username!=null and username!=''">
+			and username like '%${username}%'
+		</if>		
+	</sql>`
 2. where
+	1. `select * from user
+		<where>
+			<include refid="query_user_vo"/>
+		</where>`
 3. foreach
-4. sql片段
+	1. `<if test="ids!=null and ids.size>0">
+				<foreach collection="ids" open="and id in(" close=")" item="id" separator=","></foreach>
+			</if>`
+4. sql片段——如上
+
+
+# 整合spring和Mybatis
+## 1.传统dao开发
+1. 导入jar包
+2. 编写po类
+3. 编写sqlmapConfig.xml
+4. 编写applicationContext.xml
+	1. 数据源
+	2. 事务
+	3. 导入sqlmapConfig
+	4. 注入sqlsessionFactory
+	5. 创建userDao的bean
+
+1. 编写dao：集成sqlSessionDao，通过getSession获取，进行操作
+2. 编写user.xml映射文件
+3. 编写测试类
+
+## 2.mapper代理
+1. 导入jar
+2. 编写po
+3. 编写sqlmapConfig.xml
+4. 编写applicationContext.xml——如上，但是不用配置userDao。而是配置代理工厂`<!-- 配置mapper代理对象 -->
+	<bean class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.itcast.mapper.UserMapper"/>
+		<property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+	</bean>`
+5. 编写UserMapper.xml和UserMapper.java（也就是之前的UserDao接口）
+5. 编写测试类
+
+## 3.mapper代理注解方式
+也就是减少了sqlmapConfig.xml中多次加载mapper的时候
+- applicationContext.xml中配置Mybatis的注解扫描
+- 去除sqlmapConfig中的引入
+
+	
