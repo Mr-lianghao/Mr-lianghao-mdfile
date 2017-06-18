@@ -1,0 +1,201 @@
+/* CSS Document */
+.public_nav_wrap { margin: 0 0 54px; font-size: 18px; line-height: 1.17; text-align: center }
+.public_nav_wrap li { display: inline-block; *display:inline;*zoom:1; margin: 0 22px; vertical-align: top }
+.public_nav_wrap li a { display: inline-block; height: 28px; color: #4d4d4d; vertical-align: top }
+.public_nav_wrap li.current a, .public_nav_wrap li a:hover { height: 26px; border-bottom: 2px solid #0172c2; color: #0172c2 }
+
+
+.hide_box { display: none }
+
+.public_wrap { margin: 0 0 120px }
+
+.public_text { margin: 0 0 50px; color: #4d4d4d; font-size: 18px; line-height: 1.555 }
+
+.public_event_tabs { position: relative; width: 1200px; margin: 0 auto 76px }
+.public_event_tabs .inner {  }
+.public_event_tabs .control {  }
+.public_event_tabs .control a { position: absolute; bottom: 0; width: 11px; height: 16px; background: url('../images/public_event_tabs_control_bg.png') no-repeat }
+.public_event_tabs .control .disabled { cursor: default }
+.public_event_tabs .control .prev_btn { left: -22px; background-position: 0 0 }
+.public_event_tabs .control .next_btn { right: -22px; background-position: -13px 0 }
+.public_event_tabs .control .prev_btn.disabled { background-position: 0 -18px }
+.public_event_tabs .control .next_btn.disabled { background-position: -13px -18px }
+
+
+.peb_content { position: relative; overflow: hidden }
+.peb_content .axis { position: absolute; bottom: 6px; right: 0; left: 0; height: 4px; background: #0172c2 }
+.peb_content .box_list { position: relative; top: 0; left: 0; width: 999999px; }
+.peb_content .box { position: relative; float: left; width: 240px; height: 49px; text-align: center; cursor: pointer }
+.peb_content .year { color: #0172c2; font-weight: bold; font-size: 18px; line-height: 22px; }
+.peb_content .adorn { position: absolute; bottom: 0; left: 50%; width: 17px; height: 17px; margin: 0 0 0 -9px; background: url('../images/public_event_tabs_adorn_bg.png') no-repeat }
+.peb_content .box.selected .adorn, .peb_content .box.current .adorn, .peb_content .box:hover .adorn { background-position: 100% 0 }
+
+
+.public_panels { margin: 0 auto; }
+
+.public_panels .panel { display: none }
+.public_panels .panel:first-child { display: block }
+
+
+.public_years_link { position: relative; overflow: hidden }
+.public_years_link .list { margin: -16px 0 0 -46px }
+.public_years_link li { float: left; margin: 16px 0 0 46px }
+.public_years_link li:first-child + li + li + li + li + li + li { margin-left: 156px }
+.public_years_link .box a { display: block; width: 169px; height: 169px; border-radius: 95px; border: 3px solid #666666; text-align: center; line-height: 169px }
+.public_years_link .box a:hover { border-color: #1065bc }
+.lt9 .public_years_link .box a { width: 175px; height: 175px; border: 0 none; background: url('../images/public_years_link_box_bg.png') no-repeat; line-height: 175px }
+.lt9 .public_years_link .box a:hover { background-position: 100% 0 }
+.public_years_link .box a { color: #666666; font-size: 48px; font-family: Arial }
+.public_years_link .box a:hover { color: #1065bc }
+
+
+.contact_tabs_nav { margin: 0 0 60px; padding: 60px 0 0 }
+.contact_tabs_nav li { float: left; margin: 0 12px 0 0 }
+.contact_tabs_nav li a { display: inline-block; height: 30px; padding: 0 17px 0 19px; color: #464646; font-weight: bold; font-size: 20px; line-height: 30px; letter-spacing: 2px }
+.contact_tabs_nav li.current a, .contact_tabs_nav li a:hover { background: #519cd6; color: #ffffff }
+
+.contact_wrap { margin: 0 0 120px }
+
+.contact_image { float: left; width: 46.718% } 
+.contact_image img { max-width: 100% }
+
+.contact_text { float: right; width: 48.593% }
+.contact_text li { position: relative; min-height: 62px; margin: 30px 0 0; padding: 0 0 0 80px; line-height: 62px }
+.contact_text li:first-child { margin-top: 0 }
+.contact_text .icon { position: absolute; top: 0; left: 0; width: 62px; height: 62px; }
+.contact_text .icon_operator { background-position: 0 0 }
+.contact_text .icon_hotline { background-position: 0 -64px }
+.contact_text .icon_address { background-position: 0 -128px }
+.contact_text .icon_email { background-position: 0 -192px }
+.contact_text .icon_weibo { background-position: 0 -256px }
+.contact_text .icon_weixin { background-position: 0 -320px }
+.contact_text p { color: #0171bd; font-size: 18px }
+.contact_text p img { vertical-align: text-top }
+.contact_text .mailbox_btn { position: relative; display: inline-block; height: 45px; margin: 83px 0 0; padding: 0 30px 0 66px; background: #0273c3; color: #ffffff; font-size: 20px; line-height: 45px; vertical-align: top }
+.contact_text .mailbox_btn .icon { position: absolute; top: 50%; left: 24px; width: 32px; height: 28px; margin: -14px 0 0; background: url('../images/mailbox_btn_icon_bg.png') no-repeat }
+
+.mailbox_overlay { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 10000; display: none; background: #0273c3; opacity: 0 }
+.lt9 .mailbox_overlay { filter: alpha(opacity=0) }
+
+
+.mailbox_pop { position: fixed; top: 50%; left: 50%; z-index: 11000; display: none; width: 588px; height: 952px; margin: -476px 0 0 -294px; background: #ffffff; color: #4e4e4e }
+.mailbox_pop .inner { padding: 60px 30px }
+.mailbox_pop .close_btn { position: absolute; top: 10px; right: 10px; width: 20px; height: 20px; border: 1px solid #0273c3; background: url('../images/mailbox_pop_close_btn_bg.png') no-repeat 50% 50%; cursor: pointer }
+.mailbox_pop .row { position: relative; min-height: 47px; margin: 30px 0 0; padding: 0 0 0 7em; font-size: 18px; line-height: 47px }
+.mailbox_pop .row:first-child { margin-top: 0 }
+.mailbox_pop .title { position: absolute; top: 0; left: 0; width: 6em; line-height: 47px; text-align: right }
+.mailbox_pop .highlight1 { color: #dd0000 }
+.mailbox_pop p { position: relative; height: 47px }
+.mailbox_pop .input_box { height: 37px; padding: 5px 20px; background: #f2f2f2; line-height: 37px }
+.mailbox_pop .input_text { width: 100%; height: 37px; border: 0 none; background: transparent; font-size: 20px; line-height: 37px; vertical-align: top }
+.ie7 .mailbox_pop .input_text { margin: -1px 0 }
+.mailbox_pop .input_box .clew { position: absolute; top: 50%; left: 21px; margin: -12px 0 0; color: #c8c8c8; font-size: 20px; line-height: 24px; cursor: text }
+.mailbox_pop .input_radio, .mailbox_pop .input_checkbox { width: 20px; height: 20px; margin: 0 8px 0 0; vertical-align: middle }
+.ie7 .mailbox_pop .input_radio, .ie7 .mailbox_pop .input_checkbox { margin: 0 4px 0 -4px } 
+.mailbox_pop .input_radio + label, .mailbox_pop .input_checkbox + label { margin: 0 30px 0 0 }
+.mailbox_pop .textarea_box { position: relative; height: 135px; padding: 5px 20px; background: #f2f2f2 }
+.mailbox_pop .textarea_box .clew { position: absolute; top: 10px; left: 21px; color: #c8c8c8; font-size: 20px; line-height: 24px; cursor: text }
+.mailbox_pop .textarea_box textarea { width: 100%; height: 135px; border: 0 none; background: transparent; line-height: 38px }
+.mailbox_pop .submit_btn, .mailbox_pop .cancel_btn { width: 137px; height: 34px; margin: 0 20px 0 0; border: 0 none; color: #ffffff; font-size: 24px; line-height: 34px }
+.mailbox_pop .submit_btn { background: #519cd6 }
+.mailbox_pop .cancel_btn { background: #939393 }
+
+
+
+.temp_zindex { z-index: 100 }
+.mp_select_box { position: relative; height: 47px; background: #f2f2f2 }
+.mp_select_box .msb_title { position: relative; height: 47px; padding: 0 20px; color: #c8c8c8; font-weight: normal; line-height: 47px; cursor: pointer }
+.mp_select_box .t { display: block }
+.mp_select_box .arrow { position: absolute; top: 22px; right: 25px; width: 0; height: 0; overflow: hidden; border: 6px dashed transparent; border-top: 6px solid #a0a0a0 }
+.mp_select_box .options { position: absolute; top: 100%; right: 0; left: 0; display: none; margin: 1px 0 0; box-shadow: 0 1px 10px rgba(0, 0, 0, .3); background: #f2f2f2 }
+.mp_select_box .options li { height: 45px; border-top: 1px solid #ffffff; line-height: 45px; cursor: pointer }
+.mp_select_box .options li:first-child { border-top: 0 none }
+.mp_select_box .options li p { height: auto; padding: 0 20px; }
+.mp_select_box .options li:hover { background: #eaeaea }
+
+
+
+.jobs_tabs_nav { margin: 0 0 30px; font-size: 0; line-height: 1.17; text-align: center }
+.jobs_tabs_nav li { display: inline-block; margin: 0 30px; vertical-align: top }
+.ie7 .jobs_tabs_nav li { display: inline }
+.jobs_tabs_nav a { display: inline-block; height: 32px; color: #454545; font-weight: bold; font-size: 20px; vertical-align: top }
+.jobs_tabs_nav .current a, .jobs_tabs_nav li a:hover { height: 31px; color: #0073c3; border-bottom: 1px solid #0073c3 }
+
+.jobs_wrap { margin: 0 0 120px }
+
+.jobs_list_wrap { width: 100% }
+.jobs_list_wrap th, .jobs_list_wrap td { font-size: 18px; text-align: center }
+.jobs_list_wrap th { position:relative; height: 37px; line-height:37px; overflow:hidden; border-top: 3px solid #0073c3; border-bottom: 1px solid #0073c3; color: #0073c3; font-weight: bold }
+.jobs_list_wrap .blank td { height: 17px; border: 0 none; }
+.jobs_list_wrap td { height: 45px; border-bottom: 1px solid #f2f2f2 }
+.jobs_list_wrap {}
+.jobs_list_wrap .s_line { position: absolute; top: 50%; right: 0; width: 2px; height: 13px; overflow: hidden; margin: -6px 0 0; background: #0073c3; }
+.jobs_list_wrap .details_link { position: relative; display: inline-block; padding: 0 21px 0 0; color: #0073c3 }
+.jobs_list_wrap .details_link .icon { position: absolute; top: 50%; right: 0; width: 12px; height: 16px; margin: -8px 0 0; background: url('../images/jobs_details_link_bg.png') no-repeat }
+
+
+.full_overlay { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 10000; display: none; background: #000000; opacity: 0 }
+.lt9 .full_overlay { filter: alpha(opacity=50) }
+
+.public_total_pop { position: fixed; top: 50%; left: 50%; z-index: 11000; display: none; width: 704px; height: 670px; margin: -335px 0 0 -352px; background: #ffffff }
+.public_total_pop .inner { padding: 53px 65px 0 }
+
+.public_total_pop .close-btn { position: absolute; top: -20px; right: -26px; width: 48px; height: 48px; background: url('../images/public_total_close_bg.png') no-repeat; cursor: pointer }
+
+.public_total_pop table { width: 100% }
+.public_total_pop th { height: 64px; padding: 0 15px; border-bottom: 4px solid #1065bc; color: #1065bc; font-weight: bold; font-size: 24px; text-align: center }
+.public_total_pop td { height: 48px; padding: 0 15px; color: #4d4d4d; font-size: 18px; text-align: center }
+.public_total_pop .blank td { height: 30px }
+.public_total_pop th:first-child, .public_total_pop td:first-child { text-align: left }
+
+
+.public_total_pop .total_info { margin: 35px -23px 0; padding: 30px 23px; border-top: 1px dotted #bcbcbc; font-size: 18px }
+.public_total_pop .total_info li { float: left; width: 50%; height: 48px; color: #4d4d4d; line-height: 48px }
+.ie7 .public_total_pop .total_info li { margin-right: -1px }
+
+
+
+
+
+@media only screen and (max-width: 1440px) {
+ 	.public_event_tabs { width: 900px }
+ 	.peb_content .box { width: 180px }
+	.public_text { font-size:14px}
+	.public_years_link .list { margin-left: -34px }
+ 	.public_years_link li { margin-left: 34px }
+	.public_years_link li:first-child + li + li + li + li + li + li { margin-left: 118px }
+	.public_years_link .box a { display: block; width: 128px; height: 128px; font-size: 40px; line-height: 128px }
+	.lt9 .public_years_link .box a { width: 134px; height: 134px; border: 0 none; background-position: 0 -177px; line-height: 134px }
+	.lt9 .public_years_link .box a:hover { background-position: -136px -177px }
+	.public_nav_wrap li a { font-size:14px}
+	.public_years_link .box a { font-size:30px}
+	.public_total_pop th { font-size:16px; height:50px}
+	.public_total_pop td { font-size:14px; line-height:40px}
+	.public_total_pop .total_info { padding:20px 0; font-size:14px}
+	.contact_text p { font-size:14px}
+	.contact_text .mailbox_btn,.contact_tabs_nav li a { font-size:16px} 
+	.jobs_tabs_nav a { font-size:14px}
+	.mailbox_pop .row,.mailbox_pop .input_box .clew,.mailbox_pop .textarea_box .clew,.mailbox_pop .input_text,.mailbox_pop .submit_btn, .mailbox_pop .cancel_btn { font-size:14px}
+	.contact_text li { position: relative; min-height: 42px; line-height:42px }
+	.contact_text .icon,.contact_text .icon img {width: 42px; height: 42px; }
+	.contact_text .mailbox_btn { margin-top:26px}
+}
+
+@media only screen and (max-width: 1023px) {
+ 	.public_event_tabs { width: 670px }
+ 	.peb_content .box { width: 134px }
+
+ 	.public_years_link .list { margin-left: -20px }
+ 	.public_years_link li { margin-left: 20px }
+	.public_years_link li:first-child + li + li + li + li + li + li { margin-left: 80px }
+	.public_years_link .box a { display: block; width: 102px; height: 102px; font-size: 32px; line-height: 102px }
+	.lt9 .public_years_link .box a { width: 108px; height: 108px; border: 0 none; background-position: 0 -312px; line-height: 108px }
+	.lt9 .public_years_link .box a:hover { background-position: -111px -312px }
+	
+
+	.contact_text li { margin-top: 15px }
+	.contact_text p { font-size: 14px }
+	.contact_text .mailbox_btn { margin-top: 30px }
+	.contact_text li { position: relative; min-height: 32px; line-height:32px }
+	.contact_text .icon,.contact_text .icon img {width: 32px; height: 32px; }
+}

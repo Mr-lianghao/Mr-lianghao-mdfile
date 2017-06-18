@@ -1,0 +1,93 @@
+TD {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; LINE-HEIGHT: 150%; WORD-WRAP: break-word
+}
+.unnamed1 {
+	BORDER-RIGHT: #0090e1 1pt solid; BORDER-TOP: #0090e1 1pt solid; BORDER-LEFT: #0090e1 1pt solid; BORDER-BOTTOM: #0090e1 1pt solid
+}
+.input {
+	BORDER-RIGHT: #50b2ed 1px solid; BORDER-TOP: #50b2ed 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #50b2ed 1px solid; WIDTH: 108px; BORDER-BOTTOM: #50b2ed 1px solid; HEIGHT: 16px; BACKGROUND-COLOR: #50b2ed
+}
+.xuxian {
+	BORDER-LEFT: #666666 1px dashed
+}
+.xuxianxia {
+	BORDER-BOTTOM: #999999 1px dashed
+}
+.leftxian {
+	BORDER-LEFT: #537ac4 1px solid
+}
+.baikuang {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.kuang {
+	BORDER-RIGHT: #d4d0c8 1px solid; BORDER-TOP: #d4d0c8 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #d4d0c8 1px solid; BORDER-BOTTOM: #d4d0c8 1px solid; HEIGHT: 14px; BACKGROUND-COLOR: #ffffff
+}
+.xian {
+	BORDER-BOTTOM: #0085dc 1px solid
+}
+.leftxian {
+	BORDER-LEFT: #0085dc 1px solid
+}
+.xila {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 14px
+}
+.xian2 {
+	BORDER-TOP: #666666 1px solid; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: #666666; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #666666; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #666666
+}
+.xian3 {
+	FONT-SIZE: 14px; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: "ËÎÌו"
+}
+.liangbian {
+	BORDER-RIGHT: #4e78c2 1px solid; BORDER-LEFT: #4e78c2 1px solid
+}
+A:link {
+	COLOR: #004b91; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #004b91; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #004b91; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+a2 {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial
+}
+A.A2:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.A2:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.A2:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.A2:hover {
+	COLOR: #ffcc00; TEXT-DECORATION: underline
+}
+xx {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: ËÎÌו
+}
+A.xx:link {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.xx:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.xx:visited {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.xx:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.adate {
+	FONT-SIZE: 12px; COLOR: #999999
+}
+.xian3 {
+	BORDER-BOTTOM: #ffffff 1px double
+}
+.input2 {
+	FONT-SIZE: 12px; WIDTH: 150px; COLOR: #ffffff; FONT-FAMILY: Arial; HEIGHT: 18px; BACKGROUND-COLOR: #345288
+}

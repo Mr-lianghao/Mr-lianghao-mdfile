@@ -117,4 +117,9 @@
 - applicationContext.xml中配置Mybatis的注解扫描
 - 去除sqlmapConfig中的引入
 
+## 4.逆向工程
+1. 导入jar包：mybatis核心、log4j、驱动包、逆向工程包
+2. classpath下创建generator.xml——需要修改一些东西
+3. 创建java文件，贴入示例代码
+
 	

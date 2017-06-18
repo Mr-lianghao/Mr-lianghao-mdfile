@@ -1,0 +1,128 @@
+.path
+{
+	margin-top: 1px;
+	padding-left:8px;
+	text-align: left;
+	border: #8aafe1 1px solid;
+	background-color: #ffffff;
+	margin-bottom: 5px;
+	color: #247ebf;
+}
+.path a
+{
+	color: #247ebf;
+	text-decoration:none;
+}
+.searchBar
+{
+	margin-top: 1px;
+	text-align: left;
+	border: #8aafe1 1px solid;
+	background-color: #ffffff;
+	margin-bottom: 5px;
+}
+.datalist
+{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	border: 1px solid #8aafe1;
+	background: #fff;
+}
+.datalist th
+{
+	border: 1px solid #d6deec;
+	background: #d6deec;
+	line-height: 200%;
+}
+.datalist td
+{
+	padding: 0.2em 0.5em;
+	border: 1px solid #EEE;
+	line-height: 150%;
+}
+.photolist
+{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	border: 0px;
+}
+
+.photolistimg
+{
+	border: 1px solid #c1deee;
+	padding: 4px;
+	max-width: 150px;
+	max-height: 150px;
+}
+.photolist li{ list-style: none; float: left; height: auto!important; overflow: hidden; margin-top:8px; }
+
+.table1
+{
+	margin: 0px auto 10px;
+	border: 1px solid #8aafe1;
+	background-color: #fff;
+}
+.td1
+{
+	padding: 10px;
+	text-align: right;
+}
+.td2
+{
+	padding: 10px;
+	text-align: left;
+}
+.td3
+{
+	padding: 10px;
+	text-align: center;
+}
+.td6
+{
+	padding: 3px;
+	text-align: center;
+}
+.td5
+{
+	padding: 3px;
+	text-align: right;
+}
+.td4
+{
+	padding: 3px;
+	text-align: left;
+}
+.chart
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float:left;
+	clear:both;	
+}
+
+.FormBase
+{
+	border: 1px double #ccc;
+	background-color: #fff;
+	padding: 3px 0;
+}
+.FormFocus
+{
+	border: 1px double #3399ff;
+	background-color: #c0ddfc;
+	padding: 3px 0;
+}
+.MouseOver
+{
+	cursor: hand;
+	background-color: AliceBlue;
+	line-height: 180%;
+}
+.MouseOut
+{
+	cursor: hand;
+	background-color: White;
+	line-height: 180%;
+}
