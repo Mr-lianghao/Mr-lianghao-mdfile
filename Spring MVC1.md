@@ -43,5 +43,12 @@
 	5. springmvc.xml:扫描controller类，加载注解驱动，视图解析器
 	6. web.xml：配置前置过滤器
 1. dao：使用逆向工程
-2. service：接口和实现类
-3. controller：
+2. service：接口和实现类：实现类中利用@Autowried进行注入ItemMapper
+3. controller：ItemController，利用@Autowried进行注入
+
+## 5.整合案例的执行流程
+1. 加载web.xml
+	1. 首先加载applicationContext-*.xml,此时回去加载所有的spring文件
+	2. 加载前端过滤器：去加载springmvc.xml
+	3. 
+	3. 
